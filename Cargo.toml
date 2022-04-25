@@ -1,0 +1,17 @@
+[package]
+name = "github_task"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+clap = { version = "3.1.12", features = ["derive"] }
+hubcaps = "0.6"
+# octocrab = "0.15"
+tokio = { version = "0.2.25", features = ["macros"] }
+tokio-compat = "0.1.6"
+cli-table = "0.4"
+toml = "0.5.9"
+serde_json = "1.0"
